@@ -28,14 +28,20 @@
     17.RESPONSIVE
 ************************/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');*/
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
+</style>
+
 
 /*======================
         1.BASIC
 ========================*/
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto';
+    font-weight: 100;
     overflow-x: hidden;
 }
 
@@ -45,7 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 h1.font-weight-bold,
@@ -432,11 +439,26 @@ button:focus {
         4.HOME
 ============================*/
 
-.home-bg {
+/*
+.custom-back{
     background-image: url(../images/home-bg.JPG);
     background-position: center center;
     background-size: cover;
     position: relative;
+
+}
+*/
+
+.home-bg {
+    background-image: url(../images/Pictures/DG8A0033.JPG),url(../images/home-bg.JPG);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.home-bg-logo{
+    background-image:url(../images/govardhan_logo.png);
+    background-position:top right;
+
 }
 
 .home-table-center {
@@ -624,7 +646,7 @@ button:focus {
 
 .bg-funfact {
     position: relative;
-    background-image: url(../images/img-1.jpg);
+    background-image: url(../images/Pictures/DG8A0014.JPG);
     background-size: cover;
     background-position: center center;
 }
@@ -1097,4 +1119,24 @@ button:focus {
 .bg-logo-overlay {
     max-width: 50%;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+
+body {
+    font-family: 'Roboto';
+    font-weight: 100;
+    overflow-x: hidden;
+}
+
+
 
